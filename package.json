@@ -1,6 +1,6 @@
 {
   "name": "simple-counter",
-  "homepage": "https://mahesh-muttinti.github.io/counter/simple-counter",
+  "homepage": "https://mahesh-muttinti.github.io/counter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
