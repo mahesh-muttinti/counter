@@ -1,12 +1,38 @@
+import React, { Component } from 'react';
+import Button from './components/Button';
+import './styles/button.css';
+import './styles/typography.css';
+import './styles/main.css';
 
-function CounterApp() {
-  return (
-    <>
-	<h1>Hello I am from React and loaded in github page</h1>
-	<p>This is actually counter app but it was tested whether the github is able to deploy this react app or not</p>
-	<h2>Finally, It works</h2>
-    </>
-  );
+
+class CounterApp extends Component {
+	constructor() {
+		super();
+		this.state = { count: 0 };
+	}
+
+	incrementCount = () => {
+		this.setState({
+			count: this.state.count + 1
+		})
+	}
+	decrementCount = () => {
+		this.setState({
+			count: this.state.count - 1
+		})
+	}
+	render() {
+		let { count } = this.state;
+		return (
+			<div>
+				<span className = 'hg-inln'>Count:</span>
+				<span className = 'hg-inln'> { count } </span><br />
+				<Button title = { '-' } task = { this.decrementCount } />
+				<Button title = { '+' } task = { this.incrementCount } />
+			</div>
+		);
+	}
+	
 }
 
 export default CounterApp;

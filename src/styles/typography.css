@@ -1,0 +1,48 @@
+.hg-inln {
+	font-weight: bold;
+	padding: 7px 5px 0 0;
+	line-height: 1.3;
+	margin: 3px 0 7px 12px;
+	display: inline-block;
+}
+
+.hg-inln.h1 {
+	font-size: 2rem;
+}
+
+.hg-inln.h2 {
+	font-size: 1.7rem;
+}
+
+.hg-inln.h3 {
+	font-size: 1.5rem;
+}
+
+.hg-inln.h4 {
+	font-size: 1.3rem;
+}
+
+.hg {
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 4px 7px;
+	line-height: 1.3;
+	margin: 3px 0 7px 12px;
+	display: inline-block;
+}
+
+.hg.h1 {
+	font-size: 2rem;
+}
+
+.hg.h2 {
+	font-size: 1.7rem;
+}
+
+.hg.h3 {
+	font-size: 1.5rem;
+}
+
+.hg.h4 {
+	font-size: 1.3rem;
+}
